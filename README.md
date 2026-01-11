@@ -26,32 +26,6 @@ The project simulates a real-world analytics workflow where data is collected, m
 
 ---
 
-## 📂 Project Structure
-ecommerce-analytics-dashboard/
-│
-├── SQL/
-│ ├── 01_schema/ # Database schema and table creation scripts
-│ ├── 02_seed_data/ # Dimension and sample data insertion
-│ ├── 03_fact_data/ # Fact table population scripts
-│ └── 04_analytics_queries/ # KPI and analytical SQL queries
-│
-├── Python_Analytics/
-│ ├── 01_db_connection/ # Database connection configuration
-│ ├── 02_analysis/ # Revenue, product, customer & payment analysis
-│ ├── 03_utils/ # Data cleaning and helper utilities
-│ └── 04_visualisations/ # Chart and visualization scripts
-│
-├── Web_app/
-│ └── backend/ # Flask backend and API routes
-│
-├── screenshots/ # Dashboard screenshots and previews
-│
-├── README.md # Project documentation
-└── .gitignore # Ignored files and folders
-
-
----
-
 ## 📸 Dashboard Preview
 ![Dashboard](screenshots/dashboard.png)
 
